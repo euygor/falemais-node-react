@@ -1,0 +1,15 @@
+{
+    "name": "node-react",
+    "version": "1.0.0",
+    "scripts": {
+        "dependences": "npm install && cd ./backend && npm install && cd ../frontend && npm install",
+        "client": "cd frontend && npm start",
+        "server": "cd backend && npm run start-dev",
+        "teste": "cd frontend && npm run test",
+        "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\" \"npm run teste\"",
+        "test": "concurrently --kill-others-on-fail \"npm run server\" \"npm run teste\""
+    },
+    "devDependencies": {
+        "concurrently": "^3.5.0"
+    }
+}

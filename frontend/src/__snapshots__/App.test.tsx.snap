@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit test should render correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="leftSide"
+    >
+      <img
+        alt=""
+        src="telephone.png"
+      />
+      <p>
+        <strong>
+          Os melhores planos com as melhores tarifas você encontra AQUI !
+        </strong>
+      </p>
+    </div>
+    <div
+      class="rightSide"
+    >
+      <div
+        class="form"
+      >
+        <fieldset>
+          <legend>
+            <h4>
+              FaleMais
+            </h4>
+          </legend>
+          <select>
+            <option
+              value="0"
+            >
+              Selecione a Origem
+            </option>
+            <option
+              value="11"
+            >
+              DDD - ( 11 )
+            </option>
+            <option
+              value="16"
+            >
+              DDD - ( 16 )
+            </option>
+            <option
+              value="17"
+            >
+              DDD - ( 17 )
+            </option>
+            <option
+              value="18"
+            >
+              DDD - ( 18 )
+            </option>
+          </select>
+          <select>
+            <option
+              value="0"
+            >
+              Selecione o Destino
+            </option>
+            <option
+              value="11"
+            >
+              DDD - ( 11 )
+            </option>
+            <option
+              value="16"
+            >
+              DDD - ( 16 )
+            </option>
+            <option
+              value="17"
+            >
+              DDD - ( 17 )
+            </option>
+            <option
+              value="18"
+            >
+              DDD - ( 18 )
+            </option>
+          </select>
+          <select>
+            <option
+              value="0"
+            >
+              Selecione um Plano
+            </option>
+            <option
+              value="30"
+            >
+              Plano FaleMais 30
+            </option>
+            <option
+              value="60"
+            >
+              Plano FaleMais 60
+            </option>
+            <option
+              value="120"
+            >
+              Plano FaleMais 120
+            </option>
+          </select>
+          <input
+            placeholder="Informe os minutos"
+            type="number"
+            value=""
+          />
+        </fieldset>
+        <div
+          class="result"
+        >
+          <p>
+            Origem: ( 0 )
+          </p>
+          <p>
+            Destino: ( 0 )
+          </p>
+          <p>
+            Sem Plano: R$ 0,00
+          </p>
+          <p>
+            Com Plano: R$ 0,00
+          </p>
+        </div>
+        <div
+          class="info"
+        >
+          <p>
+            OBS: Ligações com DDD de Origem e Destino iguais não são cobradas as tarifas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
